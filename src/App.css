@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+ 
+}
+
+th,
+td {
+
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  border-radius: 10px;
+  background-color: rgb(242, 245, 247);
+}
+
+td {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: gray 3px 3px 3px 3px;
+ 
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+input ,button{
+  border-radius: 10px;
+}
+
+
+
+.t-total{
+  width: 90%;
+  
+}
+
+.t-total td{
+  width: 120px;
+}
+
+.delete-button{
+  border-radius: 0;
+  background: none;
+  border: none;
+  width: 30px;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+}
